@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block contentas %}
+    {% block adresas%}
+    <h1>Sveiki, mane lengvai rasite cia:</h1>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d857.3189335904135!2d25.26027522911654!3d54.6917067928756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd940827d1a2b3%3A0x7684c17724fdb76b!2sSeimas+of+the+Republic+of+Lithuania!5e0!3m2!1sen!2slt!4v1556708302404!5m2!1sen!2slt" width="900" height="300" frameborder="10" style="border:0" allowfullscreen></iframe>    
+    <p>Adresas: Gedimino pr. 53, Vilnius 01109</p>
+    <p>Tel. (8-5) 239 6060</p>
+    <a href="https://lrs.lt/">Mano oficialus puslapis</a>
+    <hr>
+    {% endblock adresas%}
+    <div class="container">
+        <form class="form-group" action="/contact" method="post">
+            <p>Susisiekite su manimi:</p>
+            <input type="text" name="asmens-vardas" placeholder="Vardas">
+            <br>
+            <input type="email" name="asmens-pastas" placeholder="El-pastas">
+            <br>
+            <textarea name="asmens-zinute" placeholder="Rasyk zinute"></textarea>
+            <br>
+            <button type="submit">Siusk!!!</button>
+        </form>
+    </div>
+   
+
+{% endblock contentas %}

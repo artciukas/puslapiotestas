@@ -1,0 +1,182 @@
+{% extends "layout.html" %}
+
+{% block contentas %}
+    <!-- KARUSELE IN -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../static/images/01.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="../static/images/02.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="../static/images/03.jpg" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+                <img src="../static/images/04.jpg" class="d-block w-100">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- KARUSELE OUT -->
+
+    <h4 id="text" style="margin:60px 0px">Nuotrauku galerija</h4>
+
+    <!-- NUOTRAUKOS IN   -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4  atstumai">
+                <div class="card">
+                        <img src="../static/images/logo.png" class="image rounded mx-auto d-block"></img>
+                    <div class="caption">
+                        <h6 id="text">Pirma nuotrauka</h6> 
+                    </div>
+               </div>   
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4  atstumai">
+                <div class="card">
+                        <img src="../static/images/logo.png" class="image rounded mx-auto d-block"></img>
+                    <div class="caption">
+                        <h6 id="text">Pirma nuotrauka</h6> 
+                    </div>
+               </div>   
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-4  atstumai">
+                <div class="card">
+                        <img src="../static/images/logo.png" class="image rounded mx-auto d-block"></img>
+                    <div class="caption">
+                        <h6 id="text">Pirma nuotrauka</h6> 
+                    </div>
+               </div>   
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 atstumai">
+                <div class="card">
+                        <img src="../static/images/logo.png" class="image rounded mx-auto d-block"></img>
+                    <div class="caption">
+                        <h6 id="text">Pirma nuotrauka</h6> 
+                    </div>
+               </div>   
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4  atstumai">
+                <div class="card">
+                        <img src="../static/images/logo.png" class="image rounded mx-auto d-block"></img>
+                    <div class="caption">
+                        <h6 id="text">Pirma nuotrauka</h6> 
+                    </div>
+               </div>   
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4  atstumai">
+                <div class="card">
+                        <img src="../static/images/logo.png" class="image rounded mx-auto d-block"></img>
+                    <div class="caption">
+                        <h6 id="text">Pirma nuotrauka</h6> 
+                    </div>
+               </div>   
+            </div>
+        </div>
+    </div>
+    <!-- NUOTRAUKOS OUT -->
+    
+
+    <!-- FORMA IN -->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 col-lg-4 atstumai">
+                
+                <form class="form-group" method="post" action="#">
+                <label for="email">Email address:</label>
+                <br>
+                <input type="email" class="form-control" id="email">
+                <br>
+                <label for="pwd">Password:</label>
+                <br>
+                <input type="password" class="form-control" id="pwd">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox"> Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                
+            </div>
+        <!-- FORMA OUT     -->
+     
+    
+        <!-- LENTELE IN -->
+            <div class="col-sm-12 col-md-12 col-lg-8 atstumai">
+                <table class="table table-bordered ">
+                    <tbody>
+                        <tr>
+                            <td>Vardas</td>
+                            <td>Pavarde</td>
+                            <td>Telefonas</td>
+                        </tr>
+                        <tr>
+                            <td>Jonas</td>
+                            <td>Petraitis</td>
+                            <td>869853659</td>
+                        </tr>
+                        <tr>
+                            <td>Petras</td>
+                            <td>Jonaitis</td>
+                            <td>8698558896</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- LENTELE OUT         -->
+        </div>
+                
+    </div>
+
+    <div class="container">
+                      
+        <div class="col-md-4 row border">
+                       
+            <h5>Tekstas</h5>
+            <p>daug daug teksto daug daug teksto daug daug teksto daug daug teksto daug daug teksto </p>
+        </div>
+    </div>
+
+    <div class="container">
+                      
+        <div class="col-md-4 offset-4 row border">
+                             
+            <h5>Tekstas</h5>
+                             
+            <p>daug daug teksto daug daug teksto daug daug teksto daug daug teksto daug daug teksto </p>
+        </div>
+      
+    </div>
+    <div class="container">
+                      
+        <div class="col-md-4 offset-8 row border">
+                                 
+            <h5>Tekstas</h5>
+            <p>daug daug teksto daug daug teksto daug daug teksto daug daug teksto daug daug teksto </p>
+        </div>
+          
+    </div>
+      
+    <div id="apacia">
+    {% for postas in postai2 %}
+        <h1>Vardas {{postas.autorius}} </h1>
+        <p>{{postas.pavadinimas}} sukurtas {{postas.paskelbimo_data}}</p>
+        <p>{{postas.turinys}}</p>
+        <hr>
+
+    {% endfor %}
+    </div>
+{% endblock contentas %}
+   
